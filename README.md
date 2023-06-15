@@ -24,7 +24,7 @@ For VacationPy: City data from citipy was plotted on a map of the world. Cities 
 
 -- OBSERVATIONS FROM THE ANALYSIS ARE ALSO PROVIDED IN THE WEATHERPY FILE OF THE JUPYTER NOTEBOOK FILE
 
-2-INSTALLATION
+### 2. INSTALLATION
 
 This project is coded in Python 3.10.9 The project files have an .ipynb extension, so they are meant to be viewed in Jupyter Notebook.
 
@@ -48,11 +48,11 @@ I limited the output of hotels by city in the VacationPy code to approximately 1
 
 This project assumes that the source .csv file listed above retains its original name and is in a folder labeled "output_data" that is one level below where the Python files reside. If you do not follow this relative placement, the programs will not run and the paths will need to be updated.
 
-3-CONTRIBUTING
+### 3. CONTRIBUTING
 
 Adam Glantz: adamglantz@yahoo.com
 
-4-ACKNOWLEDGEMENTS
+### 4. ACKNOWLEDGEMENTS
 
 I shared code with two classmates, Karishma Sanghvi and Nancy K. Sakyi. I also consulted with three GitHub repos regarding very similar API / plotting / mapping challenges I found through a Google Search:
 
