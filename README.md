@@ -15,6 +15,8 @@ Bootcamp: RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH
 
 In this project, we were tasked with helping a fictional company begin a research project about people whom the company employed during the 1980s and 1990s using archival .csv files from that period. It proceeded in three stages: **Data Modeling**, **Data Engineering**, and **Data Analysis**.
 
+The *emp_no* (Employee Number) variable served to link several, though not all, lists as a foreign key. The *dept_emp* (presumably: Department by *or* of Employee) list didn't have a unique attribute, so both *emp_no* and *dept_no* (Department Number) were used as a [composite key](https://en.wikipedia.org/wiki/Composite_key).
+
 - Data Modeling
 
 Prior to expending the considerable effort to create and populate tables, lists and the interrelationships of their attributes were sketched using an Entity Relationship Diagram (ERD). I considered using pgAdmin 4's built-in *ERD For Database* tool, but ultimately employed the free [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality, whose output looks less convoluted than *ERD For Database*.
