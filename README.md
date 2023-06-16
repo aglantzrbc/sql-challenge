@@ -4,6 +4,9 @@ Bootcamp: RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH
 ## TABLE OF CONTENTS
 
 1. Project Description
+   - Data Modeling
+   - Data Engineering
+   - Data Analysis
 2. Installation
 3. Contributing
 4. Acknowledgements
