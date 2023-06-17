@@ -108,7 +108,7 @@ The order of tables, above, is alphabetical, but the tables were coded and run i
 
 - **Data Analysis**
 
-*1-TASK:* List the employee number, last name, first name, sex, and salary of each employee.
+*1. TASK:* List the employee number, last name, first name, sex, and salary of each employee.
 
 ![task1_employees_general](https://github.com/aglantzrbc/sql-challenge/assets/127694342/7dbdfe8e-53ba-4cb6-a64f-f8f86e52f8f8)
 
