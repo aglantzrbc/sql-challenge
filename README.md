@@ -77,17 +77,7 @@ The order of tables, above, is alphabetical, but the tables were coded and run i
 
 **Figure 8** | *Scan of postgreSQL code showing the coding block sequence for the tables*
 
-For WeatherPy: Dependencies were installed. For a particular day, random combinations of latitude and logitude were generated at set intervals, and then cities close to those coordinates were identified in the citipy dataset and printed. Each city was matched against the data in https://api.openweathermap.org/data/2.5/weather and sequentially printed as meteorlogical data for them was captured in a list, with unmatched cities ignored. After verification of the volume and variables of the list, scatter plots were created from the city data of latitude vs. maximum temperature, humidity, cloudiness, and wind speed. The data was divided into northern hemisphere and southern hemisphere subsets by latitude ranges, and the operation was confirmed by printing out samples. Scatter plots using the same variables as before were created from the data in each hemisphere, this time with a regression model and line added and Pearson's r calculated for each plot. Analysis for each set of scatterplots' linear relationships was provided.
-
-RESULT: The fact that temperature increases as one travels closer to the equator and decreases as one moves further away from it was established with empirical data. None of the other variables had an enduring or marked correlation with latitude.
-
-It should be stated at the outset that the generalizability of the findings across all plots is limited because the plots represent a single day, 5/19/2023. Since the weather fluctuates in any locale, this day may exhibit atypical meteorological patterns in many places and thus not convey more enduring weather features. Analyzing data over time would address this small-n problem. I have endeavored to partly approximate this approach by running the code several times over four days: the hemispheric relationships between latitude and temperature remain noticeable and enduring, while lines of best fit for latitude vs. the other weather variables often differ in direction and r score, though each holding at a low absolute value. This meshes with my ultimate conclusion: there is a reliable correlation only between latitude and temperature.
-
-Basing the analysis on the citipy dataset may overrepresent regions that have more major cities and correspondingly underrepresent those with fewer large cities or fewer cities in general. When "eyeballed", it appears that the datapoint positions blanket the entire earth, but there could be an urban bias buried in the data that may be partially mitigated by weighting regions by the number and size of their cities.
-
-For VacationPy: City data from citipy was plotted on a map of the world. Cities characterized by the author's ideal weather conditions were isolated and displayed in tabular form. Hotels within a set proximity to each city were pulled in from https://api.geoapify.com/v2/places, with the list of city by hotel (or of failures to match cities with hotels) noted - as instructed, the results were capped at approximately 10 hotels to limit excess API calls. The author's ideal cities were then plotted on another map.
-
--- OBSERVATIONS FROM THE ANALYSIS ARE ALSO PROVIDED IN THE WEATHERPY FILE OF THE JUPYTER NOTEBOOK FILE
+- **Data Analysis**
 
 ### 2. INSTALLATION
 
