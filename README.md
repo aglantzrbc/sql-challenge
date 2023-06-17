@@ -213,7 +213,7 @@ INNER JOIN
 
 ![task5_hercules_nameb](https://github.com/aglantzrbc/sql-challenge/assets/127694342/456ca428-4fb6-4c55-a07e-dcfce0f84bf5)
 
-**Figure 13** | *List of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.*
+**Figure 13** | *List of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B*
 
 ```
 /* List first name, last name, and sex of each employee whose first
@@ -231,6 +231,30 @@ WHERE
 ```
 
 **Code Block 6** | *Code for the list of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B*
+
+6. *TASK:* List each employee in the Sales department, including their employee number, last name, and first name.
+
+![task6_employee_sales](https://github.com/aglantzrbc/sql-challenge/assets/127694342/1ab073b9-9405-479e-8fe2-7d16341376d3)
+
+**Figure 14** | *List of each employee in the Sales department, including their employee number, last name, and first name*
+
+```
+/* List each employee in the Sales department, including their 
+employee number, last name, and first name */
+
+SELECT
+    e.emp_no AS "Employee Number",
+    e.last_name AS "Last Name",
+    e.first_name AS "First Name"
+FROM
+    departments d
+    INNER JOIN dept_emp b ON d.dept_no = b.dept_no
+    INNER JOIN employees e ON b.emp_no = e.emp_no
+WHERE
+    d.dept_name = 'Sales';
+```
+
+**Code Block 7** | *Code for the List of each employee in the Sales department, including their employee number, last name, and first name*
 
 ### 2. INSTALLATION
 
