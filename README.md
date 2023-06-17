@@ -108,7 +108,7 @@ The order of tables, above, is alphabetical, but the tables were coded and run i
 
 - **Data Analysis**
 
-*1. TASK:* List the employee number, last name, first name, sex, and salary of each employee.
+1. *TASK:* List the employee number, last name, first name, sex, and salary of each employee.
 
 ![task1_employees_general](https://github.com/aglantzrbc/sql-challenge/assets/127694342/7dbdfe8e-53ba-4cb6-a64f-f8f86e52f8f8)
 
@@ -127,6 +127,31 @@ SELECT
 FROM
     employees e
     INNER JOIN salaries s ON e.emp_no = s.emp_no;
+```
+
+**Code Block 2** | *Code for the List of the employee number, last name, first name, sex, and salary of each employee*
+
+2. *TASK:* List the first name, last name, and hire date for the employees who were hired in 1986.
+
+![task2_employees_1986](https://github.com/aglantzrbc/sql-challenge/assets/127694342/3cc1fe99-4760-4805-ae8f-a647966d15af)
+
+**Figure 10** | *List of employees who were hired in 1986 by their first name, last name, and hire date*
+
+```
+/* List the first name, last name, and hire date for the 
+employees who were hired in 1986. */
+
+SELECT
+    first_name AS "First Name",
+    last_name AS "Last Name",
+    hire_date AS "Hire Date"
+FROM
+    employees e
+WHERE
+    hire_date >= DATE '1986-01-01'
+    AND hire_date < DATE '1987-01-01'
+ORDER BY
+    hire_date ASC;
 ```
 
 **Code Block 2** | *Code for the List of the employee number, last name, first name, sex, and salary of each employee*
