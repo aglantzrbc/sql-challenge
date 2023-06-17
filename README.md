@@ -27,6 +27,8 @@ The *emp_no* (Employee Number) variable served to link several, though not all, 
 
 - **Data Engineering**
 
+A dedicated *EmployeeSQL_db* database was created for this project, associated with postgreSQL server 15 in pgAdmin 4.
+
 *departments list:*
 
 The *dept_name* attribute was made unique, since this is the "source of truth" for department names on all other lists.
@@ -54,6 +56,24 @@ As aforementioned, this list didn't have a unique attribute, so both *emp_no* an
 ![employees_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/1de3b73f-2650-4bc6-ac8c-4eac6379582b)
 
 **Figure 5** | *employees list table and postgreSQL code*
+
+Below is the full quoted employee list table postgreSQL code (**Code Block 1**), since it can't be completely seen in **Figure 5***
+
+```
+-- Create employees table
+CREATE TABLE employees (
+    emp_no INT NOT NULL,
+    emp_title_id VARCHAR(5) NOT NULL,
+    birth_date DATE NOT NULL,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    sex VARCHAR NOT NULL,
+    hire_date DATE NOT NULL, 
+    FOREIGN KEY (emp_title_id) REFERENCES titles (title_id),
+    PRIMARY KEY (emp_no)
+);
+```
+**Code Block 1** | *Full employees postgreSQL code block*
 
 *salaries list:*
 
