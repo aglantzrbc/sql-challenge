@@ -184,7 +184,7 @@ INNER JOIN
 
 4. *TASK:* List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
-![department_employee](https://github.com/aglantzrbc/sql-challenge/assets/127694342/be4185b7-5aae-4e4b-9988-56a64d95b0a8)
+![task4_department_employee](https://github.com/aglantzrbc/sql-challenge/assets/127694342/c28655f4-787c-4b0b-8360-85c69545e66e)
 
 **Figure 12** | *List of the department number for each employee along with that employee’s employee number, last name, first name, and department name*
 
