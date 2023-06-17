@@ -99,6 +99,29 @@ The order of tables, above, is alphabetical, but the tables were coded and run i
 
 - **Data Analysis**
 
+*TASK:* List the employee number, last name, first name, sex, and salary of each employee.
+
+![task1_employees_general](https://github.com/aglantzrbc/sql-challenge/assets/127694342/7dbdfe8e-53ba-4cb6-a64f-f8f86e52f8f8)
+
+**Figure 9** | *List of the employee number, last name, first name, sex, and salary of each employee*
+
+```
+/* List the employee number, last name, first name, sex, and salary 
+of each employee. */
+
+SELECT
+    e.emp_no AS "Employee Number",
+    e.last_name AS "Last Name",
+    e.first_name AS "First Name",
+    e.sex AS "Sex",
+    CONCAT('$', TO_CHAR(s.salary, '999,999')) AS "Salary"
+FROM
+    employees e
+    INNER JOIN salaries s ON e.emp_no = s.emp_no;
+```
+
+**Code Block 2** | *Code for the List of the employee number, last name, first name, sex, and salary of each employee*
+
 ### 2. INSTALLATION
 
 This project is coded in Python 3.10.9 The project files have an .ipynb extension, so they are meant to be viewed in Jupyter Notebook.
