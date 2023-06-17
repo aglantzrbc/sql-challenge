@@ -27,7 +27,7 @@ The *emp_no* (Employee Number) variable served to link several, though not all, 
 
 - **Data Engineering**
 
-*departments list*
+*departments list:*
 
 The *dept_name* attribute was made unique, since this is the "source of truth" for department names on all other lists.
 
@@ -35,7 +35,7 @@ The *dept_name* attribute was made unique, since this is the "source of truth" f
 
 **Figure 2** | *departments list table and postgreSQL code*
 
-*dept_emp list*
+*dept_emp list:*
 
 As aforementioned, this list didn't have a unique attribute, so both *emp_no* and *dept_no* (Department Number) were used as a [composite key](https://en.wikipedia.org/wiki/Composite_key), as commented in the code.
 
@@ -43,25 +43,25 @@ As aforementioned, this list didn't have a unique attribute, so both *emp_no* an
 
 **Figure 3** | *dept_emp list table and postgreSQL code*
 
-*dept_manager list*
+*dept_manager list:*
 
 ![dept_manager_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/05b99a6e-26a4-479d-9d83-d11924129210)
 
 **Figure 4** | *dept_manager list table and postgreSQL code*
 
-*employees list*
+*employees list:*
 
 ![employees_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/1de3b73f-2650-4bc6-ac8c-4eac6379582b)
 
 **Figure 5** | *employees list table and postgreSQL code*
 
-*salaries list*
+*salaries list:*
 
 ![salaries_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/feea46f8-99d6-4bf9-bcf1-8f2618f4859d)
 
 **Figure 6** | *salaries list table and postgreSQL code*
 
-*titles list*
+*titles list:*
 
 The *title* attribute was made unique, since this is the "source of truth" for titles on all other lists.
 
@@ -69,7 +69,7 @@ The *title* attribute was made unique, since this is the "source of truth" for t
 
 **Figure 7** | *titles list table and postgreSQL code*
 
-*Scan of code to display tables*
+*Scan of code to display tables:*
 
 The order of tables, above, is alphabetical, but the tables were coded and run in a sequence to allow foreign keys to refer back to where they originate in previous blocks of code.
 
