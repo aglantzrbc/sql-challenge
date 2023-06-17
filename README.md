@@ -27,7 +27,7 @@ The *emp_no* (Employee Number) variable served to link several, though not all, 
 
 - **Data Engineering**
 
-A dedicated *EmployeeSQL_db* database was created for this project, associated with postgreSQL server 15 in pgAdmin 4.
+A dedicated *EmployeeSQL_db* database was created for this project, associated with postgreSQL server 15 in pgAdmin 4 version 7.
 
 The name conversions from the ERD are as follows, in alphabetical order by diagram entity name and with the construction ERD ENTITY = LIST.
 
