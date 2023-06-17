@@ -182,6 +182,33 @@ INNER JOIN
 
 **Code Block 4** | *Code for the list of the managers of each department along with their department number, department name, employee number, last name, and first name*
 
+4. *TASK:* List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+
+![department_employee](https://github.com/aglantzrbc/sql-challenge/assets/127694342/be4185b7-5aae-4e4b-9988-56a64d95b0a8)
+
+**Figure 12** | *List of the department number for each employee along with that employee’s employee number, last name, first name, and department name*
+
+```
+/* List the department number for each employee along with that 
+employee’s employee number, last name, first name, and department 
+name */
+
+SELECT
+    b.dept_no AS "Department Number",
+    e.emp_no AS "Employee Number",
+    e.last_name AS "Last Name",
+    e.first_name AS "First Name",
+	d.dept_name AS "Department Name"
+FROM
+    employees e
+INNER JOIN
+    dept_emp b ON b.emp_no = e.emp_no
+INNER JOIN
+    departments d ON d.dept_no = b.dept_no;
+```
+
+**Code Block 5** | *Code for the list of the department number for each employee along with that employee’s employee number, last name, first name, and department name*
+
 ### 2. INSTALLATION
 
 This project is coded in Python 3.10.9 The project files have an .ipynb extension, so they are meant to be viewed in Jupyter Notebook.
