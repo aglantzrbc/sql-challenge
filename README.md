@@ -57,7 +57,7 @@ As aforementioned, this list didn't have a unique attribute, so both *emp_no* an
 
 **Figure 5** | *employees list table and postgreSQL code*
 
-Below is the full quoted employee list table postgreSQL code (**Code Block 1**), since it can't be completely seen in **Figure 5***
+Below is the full quoted *employees* list table postgreSQL code (**Code Block 1**), since it can't be completely seen in **Figure 5**
 
 ```
 -- Create employees table
