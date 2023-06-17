@@ -209,6 +209,29 @@ INNER JOIN
 
 **Code Block 5** | *Code for the list of the department number for each employee along with that employee’s employee number, last name, first name, and department name*
 
+5. *TASK:* List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+
+![task5_hercules_nameb](https://github.com/aglantzrbc/sql-challenge/assets/127694342/456ca428-4fb6-4c55-a07e-dcfce0f84bf5)
+
+**Figure 13** | *List of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.*
+
+```
+/* List first name, last name, and sex of each employee whose first
+name is Hercules and whose last name begins with the letter B */
+
+SELECT
+    first_name AS "First Name",
+    last_name AS "Last Name",
+    sex AS "Sex"
+FROM
+    employees e
+WHERE
+    first_name = 'Hercules'
+    AND last_name LIKE 'B%';
+```
+
+**Code Block 6** | *Code for the list of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B*
+
 ### 2. INSTALLATION
 
 This project is coded in Python 3.10.9 The project files have an .ipynb extension, so they are meant to be viewed in Jupyter Notebook.
