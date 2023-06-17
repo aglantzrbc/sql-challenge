@@ -15,7 +15,7 @@ Bootcamp: RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH
 
 In this project, we were tasked with helping a fictional company begin a research project about people whom the company employed during the 1980s and 1990s using archival .csv files from that period. It proceeded in three stages: **Data Modeling**, **Data Engineering**, and **Data Analysis**.
 
-- Data Modeling
+- **Data Modeling**
 
 Prior to expending the considerable effort to create and populate tables, lists and the interrelationships of their attributes were sketched using an Entity Relationship Diagram (ERD) (see **Figure 1**, below). I considered using pgAdmin 4's built-in *ERD For Database* tool, but ultimately employed the free [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality, whose output looks less convoluted than *ERD For Database*.
 
@@ -25,7 +25,7 @@ The *emp_no* (Employee Number) variable served to link several, though not all, 
 
 **Figure 1** | *Entity Relationship Diagram (ERD) for lists and their attributes*
 
-- Data Engineering
+- **Data Engineering**
 
 departments list
 
