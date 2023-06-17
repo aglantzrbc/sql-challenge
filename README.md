@@ -156,6 +156,32 @@ ORDER BY
 
 **Code Block 3** | *Code for the List of the employee number, last name, first name, sex, and salary of each employee*
 
+3. *TASK:* List the manager of each department along with their department number, department name, employee number, last name, and first name.
+
+![task3_managers_details](https://github.com/aglantzrbc/sql-challenge/assets/127694342/19002efa-dcf7-464c-9b8a-ed671460231a)
+
+**Figure 11** | *List of the managers of each department along with their department number, department name, employee number, last name, and first name*
+
+```
+/* List the manager of each department along with their department 
+number, department name, employee number, last name, and first name */
+
+SELECT
+    m.dept_no AS "Department Number",
+    d.dept_name AS "Department Name",
+    m.emp_no AS "Employee Number",
+    e.last_name AS "Last Name",
+    e.first_name AS "First Name"
+FROM
+    dept_manager m
+INNER JOIN
+    employees e ON e.emp_no = m.emp_no
+INNER JOIN
+    departments d ON d.dept_no = m.dept_no;
+```
+
+**Code Block 4** | *Code for the list of the managers of each department along with their department number, department name, employee number, last name, and first name*
+
 ### 2. INSTALLATION
 
 This project is coded in Python 3.10.9 The project files have an .ipynb extension, so they are meant to be viewed in Jupyter Notebook.
