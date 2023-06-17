@@ -26,7 +26,8 @@ The *emp_no* (Employee Number) variable served to link several, though not all, 
 
 - Data Modeling
 
-![departments_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/7c64e9f6-1107-454d-a27a-07381d03e790)
+![departments_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/8592b1be-1263-4309-ac12-044ec9e00bfb)
+
 **Figure 2** | *departments list and postgreSQL code*
 
 
