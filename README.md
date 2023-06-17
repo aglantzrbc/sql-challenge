@@ -69,6 +69,14 @@ The *title* attribute was made unique, since this is the "source of truth" for t
 
 **Figure 7** | *titles list table and postgreSQL code*
 
+Scan of code to display tables
+
+The order of tables, above, is alphabetical, but the tables were coded and run in a sequence to allow foreign keys to refer back to where they originate in previous blocks of code.
+
+![display_tables](https://github.com/aglantzrbc/sql-challenge/assets/127694342/38b52fad-29c8-42e9-9b7e-260153578403)
+
+**Figure 8** | *Scan of postgreSQL code showing the coding block sequence for the tables*
+
 For WeatherPy: Dependencies were installed. For a particular day, random combinations of latitude and logitude were generated at set intervals, and then cities close to those coordinates were identified in the citipy dataset and printed. Each city was matched against the data in https://api.openweathermap.org/data/2.5/weather and sequentially printed as meteorlogical data for them was captured in a list, with unmatched cities ignored. After verification of the volume and variables of the list, scatter plots were created from the city data of latitude vs. maximum temperature, humidity, cloudiness, and wind speed. The data was divided into northern hemisphere and southern hemisphere subsets by latitude ranges, and the operation was confirmed by printing out samples. Scatter plots using the same variables as before were created from the data in each hemisphere, this time with a regression model and line added and Pearson's r calculated for each plot. Analysis for each set of scatterplots' linear relationships was provided.
 
 RESULT: The fact that temperature increases as one travels closer to the equator and decreases as one moves further away from it was established with empirical data. None of the other variables had an enduring or marked correlation with latitude.
