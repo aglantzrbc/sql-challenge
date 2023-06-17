@@ -21,13 +21,19 @@ Prior to expending the considerable effort to create and populate tables, lists 
 
 The *emp_no* (Employee Number) variable served to link several, though not all, lists as a foreign key. The *dept_emp* (presumably: Department *of* or *by* Employee) list didn't have a unique attribute, so both *emp_no* and *dept_no* (Department Number) were used as a [composite key](https://en.wikipedia.org/wiki/Composite_key).
 
-![Uploading Data Modeling EmployeeSQL QuickDBD Diagram.png…](https://github.com/aglantzrbc/sql-challenge/assets/127694342/9e1ec000-c371-46a7-81aa-9ac5230fa402)
+![Data Modeling EmployeeSQL QuickDBD Diagram](https://github.com/aglantzrbc/sql-challenge/assets/127694342/beef1c16-de3e-445d-bcae-5e4e7cca7067)
 
 **Figure 1** | *Entity Relationship Diagram (ERD) for lists and their attributes*
 
 - **Data Engineering**
 
 A dedicated *EmployeeSQL_db* database was created for this project, associated with postgreSQL server 15 in pgAdmin 4.
+
+The name conversions from the ERD are as follows, with the construction ERD ENTITY = LIST.
+
+   -  Departments ERD entity = departments list
+   -  Department_of_Employee ERD entity = dept_emp list
+   -  
 
 *departments list:*
 
