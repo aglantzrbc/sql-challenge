@@ -254,7 +254,7 @@ WHERE
     d.dept_name = 'Sales';
 ```
 
-**Code Block 7** | *Code for the List of each employee in the Sales department, including their employee number, last name, and first name*
+**Code Block 7** | *Code for the list of each employee in the Sales department, including their employee number, last name, and first name*
 
 ### 2. INSTALLATION
 
