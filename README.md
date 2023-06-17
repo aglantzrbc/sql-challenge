@@ -29,11 +29,15 @@ The *emp_no* (Employee Number) variable served to link several, though not all, 
 
 departments list
 
+The *dept_name* attribute was made unique, since this is the "source of truth" for department names on all other lists.
+
 ![departments_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/bd482117-1dc0-480a-b2d9-8876a09eeb92)
 
 **Figure 2** | *departments list table and postgreSQL code*
 
 dept_emp list
+
+As aforementioned, this list didn't have a unique attribute, so both *emp_no* and *dept_no* (Department Number) were used as a [composite key](https://en.wikipedia.org/wiki/Composite_key), as commented in the code.
 
 ![dept_emp_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/fa213313-aee5-40f9-8d2d-698e778ce983)
 
@@ -58,6 +62,8 @@ salaries list
 **Figure 6** | *salaries list table and postgreSQL code*
 
 titles list
+
+The *title* attribute was made unique, since this is the "source of truth" for titles on all other lists.
 
 ![titles_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/51f55f56-4a51-4b05-bd34-d4b8a425a855)
 
