@@ -35,7 +35,7 @@ departments list
 
 dept_emp list
 
-![dept_emp_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/9177f09b-1d77-4221-bccf-5a8d4f9ce06d)
+![dept_emp_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/fa213313-aee5-40f9-8d2d-698e778ce983)
 
 **Figure 3** | *dept_emp list table and postgreSQL code*
 
