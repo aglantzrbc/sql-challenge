@@ -308,7 +308,10 @@ ORDER BY
 
 ### 2. INSTALLATION
 
-This project is coded in Python 3.10.9 The project files have an .ipynb extension, so they are meant to be viewed in Jupyter Notebook.
+- The GitHub repository 
+- This project's source file **EmployeeSQL.sql** was coded in [postgreSQL](https://www.postgresql.org/) version 11 on [pgAdmin]((https://www.pgadmin.org/)) version 4.
+- The data modeling diagram file is **EmployeeSQL_diagram.pgerd** and can be accessed using the [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality.
+- A scan of the data modeling diagram file is available as **Data Modeling EmployeeSQL QuickDBD Diagram.png**.
 
 Project files - WeatherPy, VacationPy
 
