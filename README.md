@@ -129,7 +129,7 @@ FROM
     INNER JOIN salaries s ON e.emp_no = s.emp_no;
 ```
 
-**Code Block 2** | *Code for the List of the employee number, last name, first name, sex, and salary of each employee*
+**Code Block 2** | *Code block for the List of the employee number, last name, first name, sex, and salary of each employee*
 
 2. *TASK:* List the first name, last name, and hire date for the employees who were hired in 1986.
 
@@ -154,7 +154,7 @@ ORDER BY
     hire_date ASC;
 ```
 
-**Code Block 3** | *Code for the List of the employee number, last name, first name, sex, and salary of each employee*
+**Code Block 3** | *Code block for the List of the employee number, last name, first name, sex, and salary of each employee*
 
 3. *TASK:* List the manager of each department along with their department number, department name, employee number, last name, and first name.
 
@@ -180,7 +180,7 @@ INNER JOIN
     departments d ON d.dept_no = m.dept_no;
 ```
 
-**Code Block 4** | *Code for the list of the managers of each department along with their department number, department name, employee number, last name, and first name*
+**Code Block 4** | *Code block for the list of the managers of each department along with their department number, department name, employee number, last name, and first name*
 
 4. *TASK:* List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
@@ -207,7 +207,7 @@ INNER JOIN
     departments d ON d.dept_no = b.dept_no;
 ```
 
-**Code Block 5** | *Code for the list of the department number for each employee along with that employee’s employee number, last name, first name, and department name*
+**Code Block 5** | *Code block for the list of the department number for each employee along with that employee’s employee number, last name, first name, and department name*
 
 5. *TASK:* List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
 
@@ -230,7 +230,7 @@ WHERE
     AND last_name LIKE 'B%';
 ```
 
-**Code Block 6** | *Code for the list of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B*
+**Code Block 6** | *Code block for the list of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B*
 
 6. *TASK:* List each employee in the Sales department, including their employee number, last name, and first name.
 
@@ -254,7 +254,7 @@ WHERE
     d.dept_name = 'Sales';
 ```
 
-**Code Block 7** | *Code for the list of each employee in the Sales department, including their employee number, last name, and first name*
+**Code Block 7** | *Code block for the list of each employee in the Sales department, including their employee number, last name, and first name*
 
 7. *TASK:* List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
@@ -280,7 +280,7 @@ WHERE
     d.dept_name IN ('Sales', 'Development');
 ```
 
-**Code Block 8** | *Code for the list of each employee in the Sales and Development departments, including their employee number, last name, first name, and department name*
+**Code Block 8** | *Code block for the list of each employee in the Sales and Development departments, including their employee number, last name, first name, and department name*
 
 8. *TASK:* List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
@@ -304,7 +304,7 @@ ORDER BY
     "Frequency" DESC;
 ```
 
-**Code Block 9** | *Code for the list of the frequency counts, in descending order, of all the employee last names*
+**Code Block 9** | *Code block for the list of the frequency counts, in descending order, of all the employee last names*
 
 ### 2. INSTALLATION
 
