@@ -323,3 +323,4 @@ Adam Glantz: adamglantz@yahoo.com
 In addition to the Rutgers, postgreSQL, pgAdmin, and QuickDBD resources listed above, the author consulted results from similar projects publicly accessible in GitHub repositories:
 
 - [Jakins, Karen](https://www.linkedin.com/in/karen-ej20/): Toronto, Ontario, Canada, April 2021. [Pewlett-Hackard-Analysis](https://github.com/Karenjakins/Pewlett-Hackard-Analysis)
+- [Martinez, Emmanuel](https://www.linkedin.com/in/emmanuelmartinezs/): Atlanta, Georgia, USA, November 2020. [Pewlett-Hackard-Analysis](https://github.com/emmanuelmartinezs/Pewlett-Hackard-Analysis)
