@@ -105,6 +105,8 @@ SELECT * FROM dept_manager;
 
 ![employees_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/1de3b73f-2650-4bc6-ac8c-4eac6379582b)
 
+Figure 5 | employees list table and postgreSQL code
+
 ```
 -- Create dept_manager table
 CREATE TABLE dept_manager (
