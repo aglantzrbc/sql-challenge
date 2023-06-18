@@ -31,12 +31,12 @@ A dedicated *EmployeeSQL_db* database was created for this project, associated w
 
 The name conversions from the ERD are as follows, in alphabetical order by diagram entity name and with the construction ERD ENTITY = LIST.
 
-1. Departments ERD item = departments list
-2. Department_of_Employee ERD item = dept_emp list
-3. Employees ERD item = employees list
-4. Managers ERD item = dept_manager list
-5. Salaries ERD item = salaries list
-6. Titles ERD item = titles list
+1. Departments ERD item = *departments* list
+2. Department_of_Employee ERD item = *dept_emp* list
+3. Employees ERD item = *employees* list
+4. Managers ERD item = *dept_manager* list
+5. Salaries ERD item = *salaries* list
+6. Titles ERD item = *titles* list
    
 *departments list:*
 
