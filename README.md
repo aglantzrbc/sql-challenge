@@ -256,6 +256,32 @@ WHERE
 
 **Code Block 7** | *Code for the list of each employee in the Sales department, including their employee number, last name, and first name*
 
+7. *TASK:* List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+
+![task6_employee_sales](https://github.com/aglantzrbc/sql-challenge/assets/127694342/dcae2ce5-4766-46c0-a658-b624121ad398)
+
+**Figure 15** | *List of each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.*
+
+```
+/* List each employee in the Sales and Development departments, 
+including their employee number, last name, first name, and department 
+name */
+
+SELECT
+    e.emp_no AS "Employee Number",
+    e.last_name AS "Last Name",
+    e.first_name AS "First Name",
+    d.dept_name AS "Department Name"
+FROM
+    employees e
+    INNER JOIN dept_emp b ON e.emp_no = b.emp_no
+    INNER JOIN departments d ON b.dept_no = d.dept_no
+WHERE
+    d.dept_name IN ('Sales', 'Development');
+```
+
+**Code Block 8** | *Code for the list of each employee in the Sales and Development departments, including their employee number, last name, first name, and department name*
+
 ### 2. INSTALLATION
 
 This project is coded in Python 3.10.9 The project files have an .ipynb extension, so they are meant to be viewed in Jupyter Notebook.
