@@ -196,7 +196,7 @@ FROM
     INNER JOIN salaries s ON e.emp_no = s.emp_no;
 ```
 
-**Code Block 7** | *Code block for the List of the employee number, last name, first name, sex, and salary of each employee*
+**Code Block 7** | *Code block for the list of the employee number, last name, first name, sex, and salary of each employee*
 
 2. **_TASK:_** List the first name, last name, and hire date for the employees who were hired in 1986.
 
