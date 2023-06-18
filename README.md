@@ -46,6 +46,19 @@ The *dept_name* attribute was made unique, since this is the "source of truth" f
 
 **Figure 2** | *departments list table and postgreSQL code*
 
+```
+-- Create departments table
+CREATE TABLE departments (
+    dept_no VARCHAR(4) NOT NULL,
+    dept_name VARCHAR(40) NOT NULL,
+    PRIMARY KEY (dept_no),
+    UNIQUE (dept_name) -- source of truth for rest of tables
+);
+
+SELECT * FROM departments;
+```
+**Code Block 1** | *departments list table postgreSQL code block*
+
 *dept_emp list:*
 
 As aforementioned, this list didn't have a unique attribute, so both *emp_no* and *dept_no* (Department Number) were used as a [composite key](https://en.wikipedia.org/wiki/Composite_key), as commented in the code.
@@ -54,19 +67,59 @@ As aforementioned, this list didn't have a unique attribute, so both *emp_no* an
 
 **Figure 3** | *dept_emp list table and postgreSQL code*
 
+```
+-- Create dept_emp table
+CREATE TABLE dept_emp (
+    emp_no INT NOT NULL,
+    dept_no VARCHAR(4) NOT NULL,
+    FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+    FOREIGN KEY (dept_no) REFERENCES departments (dept_no),
+    PRIMARY KEY (emp_no, dept_no) -- composite key
+);
+
+SELECT * FROM dept_emp;
+```
+**Code Block 2** | *dept_emp list table postgreSQL code block*
+
 *dept_manager list:*
 
 ![dept_manager_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/05b99a6e-26a4-479d-9d83-d11924129210)
 
 **Figure 4** | *dept_manager list table and postgreSQL code*
 
+```
+-- Create dept_manager table
+CREATE TABLE dept_manager (
+    dept_no VARCHAR(4) NOT NULL,
+    emp_no INT NOT NULL,
+    FOREIGN KEY (dept_no) REFERENCES departments (dept_no),
+    FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+    PRIMARY KEY (emp_no)
+);
+
+SELECT * FROM dept_manager;
+```
+**Code Block 3** | *dept_manager list table postgreSQL code block*
+
 *employees list:*
 
 ![employees_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/1de3b73f-2650-4bc6-ac8c-4eac6379582b)
 
-**Figure 5** | *employees list table and postgreSQL code*
+```
+-- Create dept_manager table
+CREATE TABLE dept_manager (
+    dept_no VARCHAR(4) NOT NULL,
+    emp_no INT NOT NULL,
+    FOREIGN KEY (dept_no) REFERENCES departments (dept_no),
+    FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+    PRIMARY KEY (emp_no)
+);
 
-Below is the full quoted *employees* list table postgreSQL code (**Code Block 1**), since it can't be completely seen in **Figure 5**.
+SELECT * FROM dept_manager;
+```
+**Code Block 3** | *dept_manager list table postgreSQL code block*
+
+**Figure 5** | *employees list table and postgreSQL code*
 
 ```
 -- Create employees table
@@ -81,14 +134,29 @@ CREATE TABLE employees (
     FOREIGN KEY (emp_title_id) REFERENCES titles (title_id),
     PRIMARY KEY (emp_no)
 );
+
+SELECT * FROM employees;
 ```
-**Code Block 1** | *Full employees postgreSQL code block*
+**Code Block 4** | *employees list table postgreSQL code block*
 
 *salaries list:*
 
 ![salaries_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/feea46f8-99d6-4bf9-bcf1-8f2618f4859d)
 
 **Figure 6** | *salaries list table and postgreSQL code*
+
+```
+-- Create salaries table
+CREATE TABLE salaries (
+    emp_no INT NOT NULL,
+    salary INT NOT NULL,
+    FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+    PRIMARY KEY (emp_no)
+);
+
+SELECT * FROM salaries;
+```
+**Code Block 5** | *salaries list table postgreSQL code block*
 
 *titles list:*
 
@@ -97,6 +165,19 @@ The *title* attribute was made unique, since this is the "source of truth" for t
 ![titles_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/51f55f56-4a51-4b05-bd34-d4b8a425a855)
 
 **Figure 7** | *titles list table and postgreSQL code*
+
+```
+-- Create titles table
+CREATE TABLE titles (
+    title_id VARCHAR(5) NOT NULL,
+    title VARCHAR(40) NOT NULL,
+    PRIMARY KEY (title_id),
+    UNIQUE (title) -- source of truth for rest of tables
+);
+
+SELECT * FROM titles;
+```
+**Code Block 6** | *titles list table postgreSQL code block*
 
 *Scan of code to display tables:*
 
