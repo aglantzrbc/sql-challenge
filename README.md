@@ -258,9 +258,9 @@ WHERE
 
 7. *TASK:* List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-![task6_employee_sales](https://github.com/aglantzrbc/sql-challenge/assets/127694342/dcae2ce5-4766-46c0-a658-b624121ad398)
+![task7_sales_development](https://github.com/aglantzrbc/sql-challenge/assets/127694342/d258720c-e88c-49c5-b912-4f1adcc439ea)
 
-**Figure 15** | *List of each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.*
+**Figure 15** | *List of each employee in the Sales and Development departments, including their employee number, last name, first name, and department name*
 
 ```
 /* List each employee in the Sales and Development departments, 
@@ -281,6 +281,30 @@ WHERE
 ```
 
 **Code Block 8** | *Code for the list of each employee in the Sales and Development departments, including their employee number, last name, first name, and department name*
+
+8. *TASK:* List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+
+![task8_frequency_lastname](https://github.com/aglantzrbc/sql-challenge/assets/127694342/2f3b4bfe-7058-42e5-b258-547da48b9766)
+
+**Figure 16** | *List of the frequency counts, in descending order, of all the employee last names*
+
+```
+/* List the frequency counts, in descending order, of all the 
+employee last names (that is, how many employees share each 
+last name) */
+
+SELECT
+	COUNT(*) AS "Frequency",
+	last_name AS "Last Name"
+FROM
+    employees e
+GROUP BY
+    last_name
+ORDER BY
+    "Frequency" DESC;
+```
+
+**Code Block 9** | *Code for the list of the frequency counts, in descending order, of all the employee last names*
 
 ### 2. INSTALLATION
 
