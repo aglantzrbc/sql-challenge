@@ -175,7 +175,7 @@ The order of tables, above, is alphabetical, but the tables were coded and run i
 
 - **Data Analysis**
 
-1. *TASK:* List the employee number, last name, first name, sex, and salary of each employee.
+1. **_TASK:_** List the employee number, last name, first name, sex, and salary of each employee.
 
 ![task1_employees_general](https://github.com/aglantzrbc/sql-challenge/assets/127694342/7dbdfe8e-53ba-4cb6-a64f-f8f86e52f8f8)
 
@@ -198,7 +198,7 @@ FROM
 
 **Code Block 7** | *Code block for the List of the employee number, last name, first name, sex, and salary of each employee*
 
-2. *TASK:* List the first name, last name, and hire date for the employees who were hired in 1986.
+2. **_TASK:_** List the first name, last name, and hire date for the employees who were hired in 1986.
 
 ![task2_employees_1986](https://github.com/aglantzrbc/sql-challenge/assets/127694342/3cc1fe99-4760-4805-ae8f-a647966d15af)
 
@@ -223,7 +223,7 @@ ORDER BY
 
 **Code Block 8** | *Code block for the List of the employee number, last name, first name, sex, and salary of each employee*
 
-3. *TASK:* List the manager of each department along with their department number, department name, employee number, last name, and first name.
+3. **_TASK:_** List the manager of each department along with their department number, department name, employee number, last name, and first name.
 
 ![task3_managers_details](https://github.com/aglantzrbc/sql-challenge/assets/127694342/19002efa-dcf7-464c-9b8a-ed671460231a)
 
@@ -249,7 +249,7 @@ INNER JOIN
 
 **Code Block 9** | *Code block for the list of the managers of each department along with their department number, department name, employee number, last name, and first name*
 
-4. *TASK:* List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+4. **_TASK:_** List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
 ![task4_department_employee](https://github.com/aglantzrbc/sql-challenge/assets/127694342/c28655f4-787c-4b0b-8360-85c69545e66e)
 
@@ -276,7 +276,7 @@ INNER JOIN
 
 **Code Block 10** | *Code block for the list of the department number for each employee along with that employee’s employee number, last name, first name, and department name*
 
-5. *TASK:* List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+5. **_TASK:_** List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
 
 ![task5_hercules_nameb](https://github.com/aglantzrbc/sql-challenge/assets/127694342/456ca428-4fb6-4c55-a07e-dcfce0f84bf5)
 
@@ -299,7 +299,7 @@ WHERE
 
 **Code Block 11** | *Code block for the list of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B*
 
-6. *TASK:* List each employee in the Sales department, including their employee number, last name, and first name.
+6. **_TASK:_** List each employee in the Sales department, including their employee number, last name, and first name.
 
 ![task6_employee_sales](https://github.com/aglantzrbc/sql-challenge/assets/127694342/1ab073b9-9405-479e-8fe2-7d16341376d3)
 
@@ -323,7 +323,7 @@ WHERE
 
 **Code Block 12** | *Code block for the list of each employee in the Sales department, including their employee number, last name, and first name*
 
-7. *TASK:* List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+7. **_TASK:_** List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 ![task7_sales_development](https://github.com/aglantzrbc/sql-challenge/assets/127694342/d258720c-e88c-49c5-b912-4f1adcc439ea)
 
@@ -349,7 +349,7 @@ WHERE
 
 **Code Block 13** | *Code block for the list of each employee in the Sales and Development departments, including their employee number, last name, first name, and department name*
 
-8. *TASK:* List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+8. **_TASK:_** List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
 ![task8_frequency_lastname](https://github.com/aglantzrbc/sql-challenge/assets/127694342/2f3b4bfe-7058-42e5-b258-547da48b9766)
 
