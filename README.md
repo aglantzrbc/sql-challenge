@@ -310,7 +310,7 @@ ORDER BY
 
 - The [GitHub repository](https://github.com/aglantzrbc/sql-challenge) containing all project files is publicly accessible.
 - The assignment details and starter code are proprietary and located on the Rutgers Bootcamp Spot [module 9 sql challenge](https://courses.bootcampspot.com/courses/3337/assignments/54030?module_item_id=961277) page.
-- This project's source file **EmployeeSQL.sql** was coded in [postgreSQL](https://www.postgresql.org/) version 11 on [pgAdmin]((https://www.pgadmin.org/)) version 4.
+- This project's source file **EmployeeSQL.sql** was coded in [postgreSQL](https://www.postgresql.org/) version 11 on [pgAdmin](https://www.pgadmin.org/) version 4.
 - The data modeling diagram file is **EmployeeSQL_diagram.pgerd** and can be accessed using the [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality.
 - A scan of the data modeling diagram file is available as **Data Modeling EmployeeSQL QuickDBD Diagram.png**.
 
@@ -320,8 +320,6 @@ Adam Glantz: adamglantz@yahoo.com
 
 ### 4. ACKNOWLEDGEMENTS
 
-I also consulted with three GitHub repos regarding very similar API / plotting / mapping challenges I found through a Google Search:
+In addition to the Rutgers, postgreSQL, pgAdmin, and QuickDBD resources listed above, the author consulted results from similar projects publicly accessible in GitHub repositories:
 
-Author: Miles Lucey: San Jose, CA USA, Feb 2019 (mileslucey@gmail.com) = https://github.com/mileslucey/weatherpy/blob/master/WeatherPy.ipynb
-Author: Matt Debnar: New York, NY USA, June 2020 (https://debnar.com / @debnar) = https://github.com/bbixby/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb
-Author: Khoi-Duong [sic]: Jan 2023 = https://github.com/Khoi-Duong/WeatherPy-VacationPy/blob/main/WeatherPy_VacationPy_FinalCode/VacationPy_Solved.ipynb
+- [Jakins, Karen](https://www.linkedin.com/in/karen-ej20/): Toronto, Ontario, Canada, April 2021. [Pewlett-Hackard-Analysis](https://github.com/Karenjakins/Pewlett-Hackard-Analysis)
