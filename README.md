@@ -308,30 +308,11 @@ ORDER BY
 
 ### 2. INSTALLATION
 
-- The GitHub repository 
+- The [GitHub repository](https://github.com/aglantzrbc/sql-challenge) containing all project files is publicly accessible.
+- The assignment details and starter code are proprietary and located on the Rutgers Bootcamp Spot [module 9 sql challenge](https://courses.bootcampspot.com/courses/3337/assignments/54030?module_item_id=961277) page.
 - This project's source file **EmployeeSQL.sql** was coded in [postgreSQL](https://www.postgresql.org/) version 11 on [pgAdmin]((https://www.pgadmin.org/)) version 4.
 - The data modeling diagram file is **EmployeeSQL_diagram.pgerd** and can be accessed using the [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality.
 - A scan of the data modeling diagram file is available as **Data Modeling EmployeeSQL QuickDBD Diagram.png**.
-
-Project files - WeatherPy, VacationPy
-
-Data file in output_file subfolder = cities.csv, 10 printouts of scatterplots as requested in the instructions
-
-Dependencies -
-
-WeatherPy: matplotlib.pyplot, pandas, numpy, requests, time, scipy.stats, including linregress, json
-
-VacationPy: hvplot.pandas, pandas, requests
-
-Resources - cities.csv (from citipy, for both projects), https://api.openweathermap.org/data/2.5/weather (for WeatherPy), https://api.geoapify.com/v2/place (for VacationPy)
-
-NOTES
-
-We were instructed to put WeatherPy and VacationPy in their own subdirectories, but I kept them at top level for ease of access.
-
-I limited the output of hotels by city in the VacationPy code to approximately 10 (i.e., 15 to correct for cities distant from hotels and hence umatched), as requested by the instructions.
-
-This project assumes that the source .csv file listed above retains its original name and is in a folder labeled "output_data" that is one level below where the Python files reside. If you do not follow this relative placement, the programs will not run and the paths will need to be updated.
 
 ### 3. CONTRIBUTING
 
@@ -339,7 +320,7 @@ Adam Glantz: adamglantz@yahoo.com
 
 ### 4. ACKNOWLEDGEMENTS
 
-I shared code with two classmates, Karishma Sanghvi and Nancy K. Sakyi. I also consulted with three GitHub repos regarding very similar API / plotting / mapping challenges I found through a Google Search:
+I also consulted with three GitHub repos regarding very similar API / plotting / mapping challenges I found through a Google Search:
 
 Author: Miles Lucey: San Jose, CA USA, Feb 2019 (mileslucey@gmail.com) = https://github.com/mileslucey/weatherpy/blob/master/WeatherPy.ipynb
 Author: Matt Debnar: New York, NY USA, June 2020 (https://debnar.com / @debnar) = https://github.com/bbixby/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb
