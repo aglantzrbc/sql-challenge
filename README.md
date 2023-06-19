@@ -321,9 +321,7 @@ FROM
 WHERE
     d.dept_name = 'Sales';
 ```
-![arrow up](https://github.com/aglantzrbc/sql-challenge/assets/127694342/020f42c9-7068-40f2-8c7b-7cd22da9cd12)
-
-**Code Block 12** | *Code block for the list of each employee in the Sales department, including their employee number, last name, and first name* **(Sales department filter indicated by a red arrow)**
+**Code Block 12** ![arrow up](https://github.com/aglantzrbc/sql-challenge/assets/127694342/020f42c9-7068-40f2-8c7b-7cd22da9cd12) | *Code block for the list of each employee in the Sales department, including their employee number, last name, and first name* **(Sales department filter indicated by a red arrow)**
 
 7. **_TASK:_** List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
