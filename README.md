@@ -377,8 +377,8 @@ ORDER BY
 
 - The [GitHub repository](https://github.com/aglantzrbc/sql-challenge) containing all project files is publicly accessible.
 - The assignment details and starter code are proprietary and located on the Rutgers Bootcamp Spot [module 9 SQL Challenge](https://courses.bootcampspot.com/courses/3337/assignments/54030?module_item_id=961277) page.
-- This project's source file **EmployeeSQL.sql** was coded in [postgreSQL](https://www.postgresql.org/) version 11 through the [pgAdmin](https://www.pgadmin.org/) version 4 application.
-- The data modeling diagram file is **EmployeeSQL_diagram.pgerd** and can be accessed using the [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality.
+- This project's source file [EmployeeSQL_code.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code.sql) was coded in [postgreSQL](https://www.postgresql.org/) version 11 through the [pgAdmin](https://www.pgadmin.org/) version 4 application.
+- The data modeling diagram file is [EmployeeSQL_diagram.pgerd](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram.pgerd) and can be accessed using the [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality.
 - A scan of the data modeling diagram file is available as [EmployeeSQL_scan.png](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_scan.png).
 
 ### 3. CONTRIBUTING
