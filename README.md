@@ -383,7 +383,7 @@ ORDER BY
 
 ### 3. CONTRIBUTING
 
-[Glantz, Adam](https://www.linkedin.com/in/adam-glantz/): Annapolis, Maryland, USA, June 2023, email: adamglantz@yahoo.com
+- [Glantz, Adam](https://www.linkedin.com/in/adam-glantz/): Annapolis, Maryland, USA, June 2023, email: adamglantz@yahoo.com
 
 ### 4. ACKNOWLEDGEMENTS
 
