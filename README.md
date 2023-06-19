@@ -319,10 +319,11 @@ FROM
     INNER JOIN dept_emp b ON d.dept_no = b.dept_no
     INNER JOIN employees e ON b.emp_no = e.emp_no
 WHERE
-    d.dept_name = `#FBF719`'Sales';
+    d.dept_name = 'Sales';
 ```
+![arrow up](https://github.com/aglantzrbc/sql-challenge/assets/127694342/9ef20b3a-a5d6-4c82-a3e4-6cb540ec46ba)
 
-**Code Block 12** | *Code block for the list of each employee in the Sales department, including their employee number, last name, and first name*
+**Code Block 12** | *Code block for the list of each employee in the Sales department, including their employee number, last name, and first name* **(Sales department filter indicated by a red arrow)**
 
 7. **_TASK:_** List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
