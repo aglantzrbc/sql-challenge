@@ -10,6 +10,7 @@ Bootcamp: RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH
 2. Installation
 3. Contributing
 4. Acknowledgements
+5. Licenses
 
 ### 1. PROJECT DESCRIPTION
 
@@ -391,3 +392,7 @@ In addition to using the Rutgers University (edX), postgreSQL, pgAdmin 4, and *Q
 
 - [Jakins, Karen](https://www.linkedin.com/in/karen-ej20/): Toronto, Ontario, Canada, April 2021. [Pewlett-Hackard-Analysis](https://github.com/Karenjakins/Pewlett-Hackard-Analysis)
 - [Martínez, Emmanuel](https://www.linkedin.com/in/emmanuelmartinezs/): Atlanta, Georgia, USA, November 2020. [Pewlett-Hackard-Analysis](https://github.com/emmanuelmartinezs/Pewlett-Hackard-Analysis)
+
+### 5. LICENSES
+
+**N/A**
