@@ -319,7 +319,7 @@ FROM
     INNER JOIN dept_emp b ON d.dept_no = b.dept_no
     INNER JOIN employees e ON b.emp_no = e.emp_no
 WHERE
-    d.dept_name = 'Sales';
+    d.dept_name = `#FBF719`'Sales';
 ```
 
 **Code Block 12** | *Code block for the list of each employee in the Sales department, including their employee number, last name, and first name*
