@@ -321,7 +321,7 @@ FROM
 WHERE
     d.dept_name = 'Sales';
 ```
-![arrow up](https://github.com/aglantzrbc/sql-challenge/assets/127694342/6de771aa-2100-46b2-a871-ef12a7513560)
+![arrow up](https://github.com/aglantzrbc/sql-challenge/assets/127694342/2d3c374f-3192-4c15-bf80-806ea5c65e8b)
 
 **Code Block 12** | *Code block for the list of each employee in the Sales department, including their employee number, last name, and first name* **(Sales department filter indicated by a red arrow)**
 
