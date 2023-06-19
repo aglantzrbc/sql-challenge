@@ -167,7 +167,7 @@ SELECT * FROM titles;
 
 *Scan of code to display tables:*
 
-The order of tables, above, is alphabetical, but the tables were coded and run in a sequence to allow foreign keys to refer back to where they originate in previous blocks of code.
+The order of tables, above, is alphabetical, but the tables were coded and run in a sequence to allow foreign keys to refer back to where they originate in previous blocks of code. See **Figure 8** for the actual run sequence.
 
 ![display_tables](https://github.com/aglantzrbc/sql-challenge/assets/127694342/38b52fad-29c8-42e9-9b7e-260153578403)
 
