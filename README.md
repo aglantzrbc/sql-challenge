@@ -376,7 +376,7 @@ ORDER BY
 ### 2. INSTALLATION
 
 - The [GitHub repository](https://github.com/aglantzrbc/sql-challenge) containing all project files is publicly accessible.
-- The assignment details and starter code are proprietary and located on the Rutgers Bootcamp Spot [Module 9 SQL Challenge](https://courses.bootcampspot.com/courses/3337/assignments/54030?module_item_id=961277) page.
+- The assignment details and starter code are proprietary and located on the Rutgers University ([edX](https://www.edx.org/)) Bootcamp Spot [Module 9 SQL Challenge](https://courses.bootcampspot.com/courses/3337/assignments/54030?module_item_id=961277) page.
 - This project's source file [EmployeeSQL_code.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code.sql) was coded in [postgreSQL](https://www.postgresql.org/) version 11 through the [pgAdmin](https://www.pgadmin.org/) version 4 application.
 - The data modeling diagram file is [EmployeeSQL_diagram.pgerd](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram.pgerd) and can be accessed using the [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality.
 - A scan of the data modeling diagram file is available as [EmployeeSQL_scan.png](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_scan.png).
@@ -387,7 +387,7 @@ ORDER BY
 
 ### 4. ACKNOWLEDGEMENTS
 
-In addition to using the Rutgers, postgreSQL, pgAdmin 4, and *QuickDBD* resources listed above, the author consulted code and results from similar projects publicly accessible in [GitHub](https://github.com/) repositories and searchable through [Google](https://www.google.com/) and comparable search engines:
+In addition to using the Rutgers University (edX), postgreSQL, pgAdmin 4, and *QuickDBD* resources listed above, the author consulted code and results from similar projects publicly accessible in [GitHub](https://github.com/) repositories and searchable through [Google](https://www.google.com/) and comparable search engines:
 
 - [Jakins, Karen](https://www.linkedin.com/in/karen-ej20/): Toronto, Ontario, Canada, April 2021. [Pewlett-Hackard-Analysis](https://github.com/Karenjakins/Pewlett-Hackard-Analysis)
 - [Martinez, Emmanuel](https://www.linkedin.com/in/emmanuelmartinezs/): Atlanta, Georgia, USA, November 2020. [Pewlett-Hackard-Analysis](https://github.com/emmanuelmartinezs/Pewlett-Hackard-Analysis)
