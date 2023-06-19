@@ -13,7 +13,7 @@ Bootcamp: RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH
 
 ### 1. PROJECT DESCRIPTION
 
-In this project, we were tasked with helping a fictional company begin a research project about people whom the company employed during the 1980s and 1990s using archival .csv files from that period. It proceeded in three stages: **Data Modeling**, **Data Engineering**, and **Data Analysis**.
+In this project, the author was tasked with helping a fictional company begin a research project about people whom the company employed during the 1980s and 1990s using archival .csv files from that period. It proceeded in three stages: **Data Modeling**, **Data Engineering**, and **Data Analysis**.
 
 - **Data Modeling**
 
