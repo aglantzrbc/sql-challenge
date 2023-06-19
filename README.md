@@ -63,7 +63,7 @@ SELECT * FROM departments;
 
 As aforementioned, this list didn't have a unique attribute, so both *emp_no* and *dept_no* (Department Number) were used as a [composite key](https://en.wikipedia.org/wiki/Composite_key), as commented in the code.
 
-![dept_emp_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/741ba280-94b4-43a8-9be7-88e7b9bebea7)
+![dept_emp_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/97ab22b5-b5b9-44b6-b081-693103e2d805)
 
 **Figure 3** | *dept_emp list table and postgreSQL code*
 
@@ -148,7 +148,7 @@ SELECT * FROM salaries;
 
 The *title* attribute was made unique, since this is the "source of truth" for titles on all other lists.
 
-![titles_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/bce92e5e-311e-4bfa-bb27-01d22f7a7c89)
+![titles_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/edfd54b3-6ba4-4beb-b4f7-784fd1967a47)
 
 **Figure 7** | *titles list table and postgreSQL code*
 
