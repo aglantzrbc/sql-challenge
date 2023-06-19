@@ -29,7 +29,7 @@ The *emp_no* (Employee Number) variable served to link several, though not all, 
 
 A dedicated *EmployeeSQL_db* database was created for this project, associated with postgreSQL server 15 in pgAdmin 4 version 7.
 
-The name conversions from the ERD are as follows, in alphabetical order by diagram entity name and with the construction ERD ENTITY = LIST.
+The name conversions from the ERD are as follows, in alphabetical order by diagram entity name and with the construction ERD ENTITY = *LIST*.
 
 1. Departments ERD item = *departments* list
 2. Department_of_Employee ERD item = *dept_emp* list
