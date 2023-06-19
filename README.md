@@ -387,7 +387,7 @@ ORDER BY
 
 ### 4. ACKNOWLEDGEMENTS
 
-In addition to using the Rutgers University (edX), postgreSQL, pgAdmin 4, and *QuickDBD* resources listed above, the author accessed information from [Stack Overflow](https://stackoverflow.com/) archives and queries in OpenAI's [ChatGPT](https://chat.openai.com/) platform. The author also consulted code and results from similar projects publicly accessible in [GitHub](https://github.com/) repositories and searchable through [Google](https://www.google.com/) and comparable search engines:
+In addition to using the Rutgers University (edX), postgreSQL, pgAdmin 4, and *QuickDBD* resources listed above, the author accessed information from [Stack Overflow](https://stackoverflow.com/) archives and queries in OpenAI's [ChatGPT](https://chat.openai.com/) platform. The author also consulted code and results from similar projects publicly accessible in [GitHub](https://github.com/) repositories and recoverable through [Google](https://www.google.com/) and comparable search engines:
 
 - [Jakins, Karen](https://www.linkedin.com/in/karen-ej20/): Toronto, Ontario, Canada, April 2021. [Pewlett-Hackard-Analysis](https://github.com/Karenjakins/Pewlett-Hackard-Analysis)
 - [Martinez, Emmanuel](https://www.linkedin.com/in/emmanuelmartinezs/): Atlanta, Georgia, USA, November 2020. [Pewlett-Hackard-Analysis](https://github.com/emmanuelmartinezs/Pewlett-Hackard-Analysis)
