@@ -103,7 +103,7 @@ SELECT * FROM dept_manager;
 
 *employees list:*
 
-![employees_list](https://github.com/aglantzrbc/sql-challenge/assets/127694342/1de3b73f-2650-4bc6-ac8c-4eac6379582b)
+![employees_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/b218ba82-c036-4e0c-91be-1df354c82553)
 
 **Figure 5** | *employees list table and postgreSQL code*
 
@@ -115,7 +115,7 @@ CREATE TABLE employees (
     birth_date DATE NOT NULL,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
-    sex VARCHAR NOT NULL,
+    sex VARCHAR(1) NOT NULL,
     hire_date DATE NOT NULL, 
     FOREIGN KEY (emp_title_id) REFERENCES titles (title_id),
     PRIMARY KEY (emp_no)
