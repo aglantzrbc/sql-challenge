@@ -21,7 +21,7 @@ Prior to expending the effort to create and populate tables, lists and the inter
 
 The *emp_no* (Employee Number) variable served to link several, though not all, lists as a [foreign key](https://en.wikipedia.org/wiki/Foreign_key). The *dept_emp* (presumably: Department *of* or *by* Employee) list didn't have a unique attribute, so both *emp_no* and *dept_no* (Department Number) were used as a [composite key](https://en.wikipedia.org/wiki/Composite_key).
 
-![Data Modeling EmployeeSQL QuickDBD Diagram](https://github.com/aglantzrbc/sql-challenge/assets/127694342/beef1c16-de3e-445d-bcae-5e4e7cca7067)
+![EmployeeSQL_scan](https://github.com/aglantzrbc/sql-challenge/assets/127694342/1991eadc-50ba-49c1-a5bc-58482a6166fa)
 
 **Figure 1** | *Entity Relationship Diagram (ERD) for lists and their attributes*
 
