@@ -42,7 +42,7 @@ The name conversions from the ERD are as follows, in alphabetical order by diagr
 
 The *dept_name* attribute was made unique, since this is the "source of truth" for department names on all other lists.
 
-![departments_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/c7696564-0bc1-4df6-8724-103a9338b1bb)
+![departments_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/d8dcbf85-f100-40f7-aad9-7cd3c24b0d61)
 
 **Figure 2** | *departments list table and postgreSQL code*
 
@@ -63,7 +63,7 @@ SELECT * FROM departments;
 
 As aforementioned, this list didn't have a unique attribute, so both *emp_no* and *dept_no* (Department Number) were used as a [composite key](https://en.wikipedia.org/wiki/Composite_key), as commented in the code.
 
-![dept_emp_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/97ab22b5-b5b9-44b6-b081-693103e2d805)
+![dept_emp_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/5a43c9c9-3db2-486a-94f0-81b219ec7f11)
 
 **Figure 3** | *dept_emp list table and postgreSQL code*
 
@@ -83,7 +83,7 @@ SELECT * FROM dept_emp;
 
 *dept_manager list:*
 
-![dept_manager_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/5d349de3-178d-4c92-a519-4ae376a02d0e)
+![dept_manager_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/94255ac3-ee4f-45c0-9f8e-342fb1deab47)
 
 **Figure 4** | *dept_manager list table and postgreSQL code*
 
@@ -103,7 +103,7 @@ SELECT * FROM dept_manager;
 
 *employees list:*
 
-![employees_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/5505140e-bcf4-4488-b1d3-c390657337f3)
+![employees_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/c147f448-812b-49f2-81bd-13d06f90d243)
 
 **Figure 5** | *employees list table and postgreSQL code*
 
@@ -127,7 +127,7 @@ SELECT * FROM employees;
 
 *salaries list:*
 
-![salaries_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/8d000d94-ccfd-4c55-a55d-e00a21e0700b)
+![salaries_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/fb9f7058-c93e-4a05-9200-dc2b7801e0b5)
 
 **Figure 6** | *salaries list table and postgreSQL code*
 
@@ -148,7 +148,7 @@ SELECT * FROM salaries;
 
 The *title* attribute was made unique, since this is the "source of truth" for titles on all other lists.
 
-![titles_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/edfd54b3-6ba4-4beb-b4f7-784fd1967a47)
+![titles_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/c3bcb885-b4b4-4b3b-b81d-1bcaaa83918c)
 
 **Figure 7** | *titles list table and postgreSQL code*
 
