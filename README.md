@@ -41,7 +41,7 @@ The name conversions from the ERD are as follows, in alphabetical order by diagr
    
 *departments list:*
 
-The *dept_name* attribute was made unique, since this is the "source of truth" for department names on all other lists.
+The *dept_name* attribute was made unique, since this is the "source of truth" for department names on all other lists. **See Figure 2 and Code Block 1, both below.**
 
 ![departments_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/d8dcbf85-f100-40f7-aad9-7cd3c24b0d61)
 
@@ -62,7 +62,7 @@ SELECT * FROM departments;
 
 *dept_emp list:*
 
-As aforementioned, this list didn't have a unique attribute, so both *emp_no* and *dept_no* (Department Number) were used as a [composite key](https://en.wikipedia.org/wiki/Composite_key), as commented in the code.
+As aforementioned, this list didn't have a unique attribute, so both *emp_no* and *dept_no* (Department Number) were used as a [composite key](https://en.wikipedia.org/wiki/Composite_key), as commented in the code. **See Figure 3 and Code Block 2, both below.**
 
 ![dept_emp_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/5a43c9c9-3db2-486a-94f0-81b219ec7f11)
 
@@ -84,6 +84,8 @@ SELECT * FROM dept_emp;
 
 *dept_manager list:*
 
+ **See Figure 4 and Code Block 3, both below.**
+
 ![dept_manager_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/94255ac3-ee4f-45c0-9f8e-342fb1deab47)
 
 **Figure 4** | *dept_manager list table and postgreSQL code*
@@ -103,6 +105,8 @@ SELECT * FROM dept_manager;
 **Code Block 3** | *dept_manager list table postgreSQL code block*
 
 *employees list:*
+
+ **See Figure 5 and Code Block 4, both below.**
 
 ![employees_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/c147f448-812b-49f2-81bd-13d06f90d243)
 
@@ -128,6 +132,8 @@ SELECT * FROM employees;
 
 *salaries list:*
 
+ **See Figure 6 and Code Block 5, both below.**
+
 ![salaries_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/fb9f7058-c93e-4a05-9200-dc2b7801e0b5)
 
 **Figure 6** | *salaries list table and postgreSQL code*
@@ -147,7 +153,7 @@ SELECT * FROM salaries;
 
 *titles list:*
 
-The *title* attribute was made unique, since this is the "source of truth" for titles on all other lists.
+The *title* attribute was made unique, since this is the "source of truth" for titles on all other lists. **See Figure 7 and Code Block 6, both below.**
 
 ![titles_table](https://github.com/aglantzrbc/sql-challenge/assets/127694342/c3bcb885-b4b4-4b3b-b81d-1bcaaa83918c)
 
@@ -176,7 +182,7 @@ The order of tables, above, is alphabetical, but the tables were coded and run i
 
 - **Data Analysis**
 
-1. **_TASK:_** List the employee number, last name, first name, sex, and salary of each employee.
+1. **_TASK:_** List the employee number, last name, first name, sex, and salary of each employee. **See Figure 9 and Code Block 7, both below.**
 
 ![task1_employees_general](https://github.com/aglantzrbc/sql-challenge/assets/127694342/7dbdfe8e-53ba-4cb6-a64f-f8f86e52f8f8)
 
@@ -199,7 +205,7 @@ FROM
 
 **Code Block 7** | *Code block for the list of the employee number, last name, first name, sex, and salary of each employee*
 
-2. **_TASK:_** List the first name, last name, and hire date for the employees who were hired in 1986.
+2. **_TASK:_** List the first name, last name, and hire date for the employees who were hired in 1986. **See Figure 10 and Code Block 8, both below.**
 
 ![task2_employees_1986](https://github.com/aglantzrbc/sql-challenge/assets/127694342/3cc1fe99-4760-4805-ae8f-a647966d15af)
 
@@ -222,7 +228,7 @@ ORDER BY
     hire_date ASC;
 ```
 
-**Code Block 8** | *Code block for the List of the employee number, last name, first name, sex, and salary of each employee*
+**Code Block 8** | *Code block for the List of the employee number, last name, first name, sex, and salary of each employee* **See Figure 11 and Code Block 9, both below.**
 
 3. **_TASK:_** List the manager of each department along with their department number, department name, employee number, last name, and first name.
 
@@ -250,7 +256,7 @@ INNER JOIN
 
 **Code Block 9** | *Code block for the list of the managers of each department along with their department number, department name, employee number, last name, and first name*
 
-4. **_TASK:_** List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+4. **_TASK:_** List the department number for each employee along with that employee’s employee number, last name, first name, and department name. **See Figure 12 and Code Block 10, both below.**
 
 ![task4_department_employee](https://github.com/aglantzrbc/sql-challenge/assets/127694342/c28655f4-787c-4b0b-8360-85c69545e66e)
 
@@ -277,7 +283,7 @@ INNER JOIN
 
 **Code Block 10** | *Code block for the list of the department number for each employee along with that employee’s employee number, last name, first name, and department name*
 
-5. **_TASK:_** List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+5. **_TASK:_** List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B. **See Figure 13 and Code Block 11, both below.**
 
 ![task5_hercules_nameb](https://github.com/aglantzrbc/sql-challenge/assets/127694342/456ca428-4fb6-4c55-a07e-dcfce0f84bf5)
 
@@ -300,7 +306,7 @@ WHERE
 
 **Code Block 11** | *Code block for the list of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B*
 
-6. **_TASK:_** List each employee in the Sales department, including their employee number, last name, and first name.
+6. **_TASK:_** List each employee in the Sales department, including their employee number, last name, and first name. **See Figure 14 and Code Block 12, both below.**
 
 ![task6_employee_sales](https://github.com/aglantzrbc/sql-challenge/assets/127694342/1ab073b9-9405-479e-8fe2-7d16341376d3)
 
@@ -325,7 +331,7 @@ WHERE
 
 **Code Block 12** | *Code block for the list of each employee in the Sales department, including their employee number, last name, and first name* **(Sales department filter indicated by a red arrow)**
 
-7. **_TASK:_** List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+7. **_TASK:_** List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name. **See Figure 15 and Code Block 13, both below.**
 
 ![task7_sales_development](https://github.com/aglantzrbc/sql-challenge/assets/127694342/d258720c-e88c-49c5-b912-4f1adcc439ea)
 
@@ -351,7 +357,7 @@ WHERE
 
 **Code Block 13** | *Code block for the list of each employee in the Sales and Development departments, including their employee number, last name, first name, and department name*
 
-8. **_TASK:_** List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+8. **_TASK:_** List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name). **See Figure 16 and Code Block 14, both below.**
 
 ![task8_frequency_lastname](https://github.com/aglantzrbc/sql-challenge/assets/127694342/2f3b4bfe-7058-42e5-b258-547da48b9766)
 
