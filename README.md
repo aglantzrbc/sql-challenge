@@ -228,9 +228,9 @@ ORDER BY
     hire_date ASC;
 ```
 
-**Code Block 8** | *Code block for the List of the employee number, last name, first name, sex, and salary of each employee* **See Figure 11 and Code Block 9, both below.**
+**Code Block 8** | *Code block for the List of the employee number, last name, first name, sex, and salary of each employee*
 
-3. **_TASK:_** List the manager of each department along with their department number, department name, employee number, last name, and first name.
+3. **_TASK:_** List the manager of each department along with their department number, department name, employee number, last name, and first name.**See Figure 11 and Code Block 9, both below.**
 
 ![task3_managers_details](https://github.com/aglantzrbc/sql-challenge/assets/127694342/19002efa-dcf7-464c-9b8a-ed671460231a)
 
