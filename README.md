@@ -389,7 +389,7 @@ ORDER BY
 - This project's **table schemata source file** is available in the repository under the name: [EmployeeSQL_code_schemata.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code_schemata.sql).
 - This project's **queries source file** is available in the repository under the name: [EmployeeSQL_code_queries.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code_queries.sql).
 - The **data modeling diagram file** is [EmployeeSQL_diagram_erd.pgerd](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram_erd.pgerd) and can be accessed using the [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality.
-- A scan of the data modeling diagram file **scan** is available as [EmployeeSQL_diagram_scan.png](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram_scan.png).
+- A **scan of the data modeling diagram file** is available with a .png extension here: [EmployeeSQL_diagram_scan.png](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram_scan.png).
 
 ### 3. CONTRIBUTING
 
