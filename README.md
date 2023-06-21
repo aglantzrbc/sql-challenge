@@ -16,8 +16,7 @@ Bootcamp: RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH
 
 In this project, the author was tasked with helping a fictional company begin a research project about people whom the company employed during the 1980s and 1990s using archival .csv files from that period. It proceeded in three stages: **Data Modeling**, **Data Engineering**, and **Data Analysis**.
 
-- **Data Modeling**
-File [EmployeeSQL_diagram_scan.png](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram_scan.png)
+- [**Data Modeling**](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram_scan.png)
 
 Prior to expending the effort to create and populate tables, lists and the interrelationships of their attributes were sketched using an [Entity Relationship Diagram (ERD)](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) (see **Figure 1**, below). The author considered using [pgAdmin 4's](https://www.pgadmin.org/) built-in *ERD For Database* tool, but ultimately employed the free [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality, whose output looks less convoluted than *ERD For Database*. However, even with this choice, not every permuation of entity placement could be adequately displayed, so some [foreign key](https://en.wikipedia.org/wiki/Foreign_key) connection lines overlap, which is not optimal.
 
