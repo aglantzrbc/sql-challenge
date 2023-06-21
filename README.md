@@ -385,9 +385,11 @@ ORDER BY
 
 - The [GitHub repository](https://github.com/aglantzrbc/sql-challenge) containing all project files is publicly accessible.
 - The assignment details and starter code are proprietary and located on the [Rutgers University](https://www.rutgers.edu/) ([edX](https://www.edx.org/)) Bootcamp Spot [Module 9 SQL Challenge](https://courses.bootcampspot.com/courses/3337/assignments/54030?module_item_id=961277) page.
-- This project's source file [EmployeeSQL_code.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code.sql) was coded in [postgreSQL](https://www.postgresql.org/) version 11 through the [pgAdmin](https://www.pgadmin.org/) 4 version 7 application.
-- The data modeling diagram file is [EmployeeSQL_diagram.pgerd](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram.pgerd) and can be accessed using the [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality.
-- A scan of the data modeling diagram file is available as [EmployeeSQL_scan.png](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_scan.png).
+- All code source files were coded in [postgreSQL](https://www.postgresql.org/) version 11 through the [pgAdmin](https://www.pgadmin.org/) 4 version 7 application.
+- This project's **table schemata source file** is available in the repository under the name: [EmployeeSQL_code_schemata.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code_schemata.sql).
+- This project's **queries source file** is available in the repository under the name: [EmployeeSQL_code_queries.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code_queries.sql).
+- The **data modeling diagram file** is [EmployeeSQL_diagram_erd.pgerd](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram_erd.pgerd) and can be accessed using the [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality.
+- A scan of the data modeling diagram file **scan** is available as [https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram_erd.pgerd](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram_scan.png).
 
 ### 3. CONTRIBUTING
 
