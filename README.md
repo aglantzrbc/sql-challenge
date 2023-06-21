@@ -26,8 +26,7 @@ The *emp_no* (Employee Number) variable served to link several, though not all, 
 
 **Figure 1** | *Entity Relationship Diagram (ERD) for lists and their attributes*
 
-- **Data Engineering**
-File [EmployeeSQL_code_schemata.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code_schemata.sql)
+- [**Data Engineering**](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code_schemata.sql)
 
 A dedicated *EmployeeSQL_db* database was created for this project, associated with postgreSQL server 15 in pgAdmin 4 version 7.
 
@@ -181,8 +180,7 @@ The order of tables, above, is alphabetical, but the tables were coded and run i
 
 **Figure 8** | *Scan of postgreSQL code showing the coding block sequence for the tables*
 
-- **Data Analysis**
-File [EmployeeSQL_code_queries.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code_queries.sql)
+- [**Data Analysis**](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code_queries.sql)
 
 1. **_TASK:_** List the employee number, last name, first name, sex, and salary of each employee. **See Figure 9 and Code Block 7, both below.**
 
