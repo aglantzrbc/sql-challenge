@@ -16,7 +16,7 @@ Bootcamp: RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH
 
 In this project, the author was tasked with helping a fictional company begin a research project about people whom the company employed during the 1980s and 1990s using archival .csv files from that period. It proceeded in three stages: **Data Modeling**, **Data Engineering**, and **Data Analysis**.
 
-- **Data Modeling**
+- **Data Modeling** - file [EmployeeSQL_diagram_scan.png](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_diagram_scan.png)
 
 Prior to expending the effort to create and populate tables, lists and the interrelationships of their attributes were sketched using an [Entity Relationship Diagram (ERD)](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) (see **Figure 1**, below). The author considered using [pgAdmin 4's](https://www.pgadmin.org/) built-in *ERD For Database* tool, but ultimately employed the free [*QuickDBD*](http://www.quickdatabasediagrams.com/) functionality, whose output looks less convoluted than *ERD For Database*. However, even with this choice, not every permuation of entity placement could be adequately displayed, so some [foreign key](https://en.wikipedia.org/wiki/Foreign_key) connection lines overlap, which is not optimal.
 
@@ -26,7 +26,7 @@ The *emp_no* (Employee Number) variable served to link several, though not all, 
 
 **Figure 1** | *Entity Relationship Diagram (ERD) for lists and their attributes*
 
-- **Data Engineering**
+- **Data Engineering** - file [EmployeeSQL_code_schemata.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code_schemata.sql)
 
 A dedicated *EmployeeSQL_db* database was created for this project, associated with postgreSQL server 15 in pgAdmin 4 version 7.
 
@@ -180,7 +180,7 @@ The order of tables, above, is alphabetical, but the tables were coded and run i
 
 **Figure 8** | *Scan of postgreSQL code showing the coding block sequence for the tables*
 
-- **Data Analysis**
+- **Data Analysis** - file [EmployeeSQL_code_queries.sql](https://github.com/aglantzrbc/sql-challenge/blob/main/EmployeeSQL_code_queries.sql)
 
 1. **_TASK:_** List the employee number, last name, first name, sex, and salary of each employee. **See Figure 9 and Code Block 7, both below.**
 
